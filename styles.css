@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     color: #faebd7;
     background-color: #381818;
@@ -11,10 +16,10 @@ header {
 h1 {
     font-family: "Audiowide", serif;
     font-weight: 400;
+    font-size: 3rem;
     font-style: normal;
-
+    padding-top: 25vh;
     text-align: center;
-    margin: auto;
 }
 
 button {
@@ -25,8 +30,14 @@ button {
 
     padding: 15px;
     border: solid #bff8ff;
+    background-color:#e7b070;
 }
 button:hover {
     color: #faebd7;
     background-color: #523131;
+}
+
+img.startPluto {
+    margin: 1%;
+    width: 20%;
 }
