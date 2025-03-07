@@ -1,0 +1,32 @@
+header {
+    color: #faebd7;
+    background-color: #381818;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+    padding: 15px;
+    border: solid #bff8ff;
+}
+button:hover {
+    color: #faebd7;
+    background-color: #523131;
+}
