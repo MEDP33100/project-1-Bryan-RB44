@@ -37,7 +37,10 @@ button:hover {
     background-color: #523131;
 }
 
-img.startPluto {
-    margin: 1%;
+.startPluto {
+    align-self: start;
+}
+.plutoSize {
+    margin: 2%;
     width: 20%;
 }
