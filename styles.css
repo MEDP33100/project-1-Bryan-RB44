@@ -57,6 +57,15 @@ section {
 
     color:#e7b070;
     background-color: #000000;
+
+    height: 100vh;
+    /* display: flex; */
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 0;
+    scroll-snap-align: start;
 }
 
 /* ANIMATION */
