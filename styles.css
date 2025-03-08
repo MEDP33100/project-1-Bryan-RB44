@@ -30,11 +30,15 @@ button {
 
     padding: 15px;
     border: solid #bff8ff;
-    background-color:#e7b070;
+    animation: buttonBack 3s infinite alternate ease-in-out;
+    margin-top: 2%;
 }
-button:hover {
-    color: #faebd7;
-    background-color: #523131;
+button a {
+    text-decoration: none;
+    color: #381818;
+}
+button a:hover {
+    color: #000000;
 }
 
 .startPluto {
@@ -44,3 +48,26 @@ button:hover {
     margin: 2%;
     width: 20%;
 }
+
+section {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+    color:#e7b070;
+    background-color: #000000;
+}
+
+/* ANIMATION */
+@keyframes buttonBack {
+    0% {
+      background-color: #e7b070;
+    }
+    50% {
+      background-color: #bea99a;
+    }
+    100% {
+      background-color: #e7b070;
+    }
+  }
