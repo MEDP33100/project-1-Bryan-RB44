@@ -68,6 +68,15 @@ section {
     scroll-snap-align: start;
 }
 
+section p, img {
+    margin-left: 5%;
+}
+section button {
+    border: solid #6d2424;
+    margin-left: 5%;
+    animation: buttonNext_back 3s infinite alternate ease-in-out;
+}
+
 /* ANIMATION */
 @keyframes buttonBack {
     0% {
@@ -79,4 +88,15 @@ section {
     100% {
       background-color: #e7b070;
     }
-  }
+}
+@keyframes buttonNext_back {
+    0% {
+      background-color: #f7c8b3;
+    }
+    50% {
+      background-color: #ffe1be;
+    }
+    100% {
+      background-color: #f7c8b3;
+    }
+}
