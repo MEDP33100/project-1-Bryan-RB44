@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
 });
 
-//Function for Audio on Start Page
+//SFX on Start Page Button
 
 //Start Button
 //(Again using GSAP)
@@ -27,6 +27,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const sections = document.querySelectorAll("section");
 
     beginButton.addEventListener("click", (e) => {
+
+        const buttonSound = new Audio('sounds/startSound.mp3');
+        buttonSound.play();
+
         //Animate the header fading out and disappearing.
         gsap.to(startScreen, {
             duration: 1,
