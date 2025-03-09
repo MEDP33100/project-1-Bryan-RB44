@@ -1,8 +1,16 @@
 //Page Button SFX
-const pageButton = document.querySelector(".nextPage");
-const soundFX = document.querySelector(".soundPage")
+document.addEventListener("DOMContentLoaded", () => {
+    const nextButton = document.querySelector(".nextPage");
+    const pastButton = document.querySelector(".pastPage");
 
-pageButton.addEventListener("mouseover", () => {
-    sound.currentTime = 0;
-    soundFX.play();
-});
+    nextButton.addEventListener("click", (e) => {
+        const buttonSound = new Audio('sounds/pageButton.mp3');
+        buttonSound.play();
+    })
+    pastButton.addEventListener("click", (e) => {
+        const buttonSound = new Audio('sounds/pageButton.mp3');
+        buttonSound.play();
+    })
+})
+
+console.log("testing testing")
