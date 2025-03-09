@@ -3,25 +3,6 @@ body {
     padding: 0;
 }
 
-header {
-    color: #faebd7;
-    background-color: #381818;
-    align-items: center;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-
-h1 {
-    font-family: "Audiowide", serif;
-    font-weight: 400;
-    font-size: 3rem;
-    font-style: normal;
-    padding-top: 25vh;
-    text-align: center;
-}
-
 button {
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
@@ -30,7 +11,6 @@ button {
 
     padding: 15px;
     border: solid #bff8ff;
-    animation: buttonBack 3s infinite alternate ease-in-out;
     margin-top: 2%;
 }
 button a {
@@ -39,14 +19,6 @@ button a {
 }
 button a:hover {
     color: #000000;
-}
-
-.startPluto {
-    align-self: start;
-}
-.plutoSize {
-    margin: 2%;
-    width: 20%;
 }
 
 section {
@@ -82,17 +54,6 @@ section button {
 }
 
 /* ANIMATION */
-@keyframes buttonBack {
-    0% {
-      background-color: #e7b070;
-    }
-    50% {
-      background-color: #bea99a;
-    }
-    100% {
-      background-color: #e7b070;
-    }
-}
 @keyframes buttonNext_back {
     0% {
       background-color: #f7c8b3;
