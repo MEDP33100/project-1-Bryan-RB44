@@ -68,6 +68,11 @@ section {
     scroll-snap-align: start;
 }
 
+section p.sleepy {
+    margin: 0;
+    display: inline;
+}
+
 section p {
     margin-left: 5%;
 }

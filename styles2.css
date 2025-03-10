@@ -52,6 +52,16 @@ section button {
     animation: buttonNext_back 3s infinite alternate ease-in-out;
 }
 
+img.protoDisk {
+    width: 90vw;
+    height: 50vh;
+    object-fit: contain;
+}
+
+p u {
+    font-size: 2rem;
+}
+
 /* ANIMATION */
 @keyframes buttonNext_back {
     0% {
