@@ -16,11 +16,28 @@ header {
     flex-direction: column;
     height: 100vh;
 }
+.altHead {
+    color: #381818;
+    background-color: #faebd7;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
 h1 {
     font-family: "Audiowide", serif;
     font-weight: 400;
     font-size: 3rem;
+    font-style: normal;
+    padding-top: 25vh;
+    text-align: center;
+}
+h2 {
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-size: 2rem;
     font-style: normal;
     padding-top: 25vh;
     text-align: center;
@@ -34,6 +51,17 @@ button {
 
     padding: 15px;
     border: solid #bff8ff;
+    animation: buttonBack 3s infinite alternate ease-in-out;
+    margin-top: 2%;
+}
+.altButton {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+    padding: 15px;
+    border: solid #381818;
     animation: buttonBack 3s infinite alternate ease-in-out;
     margin-top: 2%;
 }
@@ -77,6 +105,9 @@ section p.sleepy {
     display: inline;
     font-size: 5em;
     margin-left: 50%;
+}
+.sleepingPluto {
+    margin-top: 2%;
 }
 
 section p {

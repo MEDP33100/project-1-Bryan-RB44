@@ -75,6 +75,23 @@ p u {
     font-size: 2rem;
 }
 
+.lookDown {
+    width: 90vw;
+    height: 50vh;
+    object-fit: contain;
+}
+.plutoVisit {
+    width: 90vw;
+    height: 50vh;
+    object-fit: contain;
+}
+.plutoSleeb {
+    width: 90vw;
+    height: 50vh;
+    object-fit: contain;
+    display: none;
+}
+
 /* ANIMATION */
 @keyframes buttonNext_back {
     0% {

@@ -61,3 +61,11 @@ document.addEventListener("DOMContentLoaded", () => {
         snoreSound.play();
     });
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const sleepy = document.querySelector(".sleepingPluto");
+
+    sleepy.addEventListener("click", () => {
+        const snoreSound = new Audio('sounds/sleeb.mp3');
+        snoreSound.play();
+    });
+});
