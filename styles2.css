@@ -1,3 +1,8 @@
+html {
+    background-color: #000000;
+
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -41,10 +46,12 @@ section {
 
 section p {
     margin-left: 5%;
+    margin-right: 5%;
 }
 section img {
     margin-left: 5%;
     margin-top: 5%;
+    margin-right: 5%;
 }
 section button {
     border: solid #6d2424;
@@ -56,6 +63,12 @@ img.protoDisk {
     width: 90vw;
     height: 50vh;
     object-fit: contain;
+}
+#eventPluto {
+    width: 90vw;
+    height: 50vh;
+    object-fit: contain;
+    display: none;
 }
 
 p u {
