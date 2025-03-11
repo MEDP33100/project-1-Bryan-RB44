@@ -1,3 +1,7 @@
+html {
+    background-color: #000000;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -71,14 +75,20 @@ section {
 section p.sleepy {
     margin: 0;
     display: inline;
+    font-size: 5em;
+    margin-left: 25%;
 }
 
 section p {
     margin-left: 5%;
+    margin-right: 5%;
 }
 section img {
     margin-left: 5%;
     margin-top: 5%;
+    object-fit: contain;
+    width: 90vw;
+    height: 50vh;
 }
 section button {
     border: solid #6d2424;
