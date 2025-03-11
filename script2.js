@@ -1,16 +1,19 @@
-//Page Button SFX
+//Image SFX
+
 document.addEventListener("DOMContentLoaded", () => {
-    const nextButton = document.querySelector(".nextPage");
-    const pastButton = document.querySelector(".pastPage");
+    // Solar Disc
+    const disc = document.querySelector("#disc");
+    disc.addEventListener("click", () => {
+        const discSound = new Audio('sounds/disc.mp3');
+        discSound.play();
+    });
 
-    nextButton.addEventListener("click", (e) => {
-        const buttonSound = new Audio('sounds/pageButton.mp3');
-        buttonSound.play();
-    })
-    pastButton.addEventListener("click", (e) => {
-        const buttonSound = new Audio('sounds/pageButton.mp3');
-        buttonSound.play();
-    })
-})
+    // Pluto Crash
+    const crash = document.querySelector("#crashPluto");
+    crash.addEventListener("click", () => {
+        const crashSound = new Audio('sounds/plutoCrash.mp3');
+        crashSound.play();
+    });
 
-console.log("testing testing")
+    
+});
