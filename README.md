@@ -3,38 +3,33 @@
 
 ## Project Overview
 
-- Briefly describe the purpose of the project.
-- Explain the story you are telling through the webpage and the key interactive elements.
+- This project is a short story on the history of Pluto. I wanted to create something that was entertaining, educational, and simple at the same time so it can be understood and enjoyed by as much people as possible. Through the webpages, I use interactive images which can move and make sounds so the user can be entertained by some funny visuals and sounds, all while learning about Pluto at a quick pace. It goes through the formation of Pluto, the history of its discovery and time as a planet, its demotion to being a dwarf planet, and finally it gives Pluto a real happy ending despite that set back.
 
 ## Figma Design
 
-- Provide a link to the Figma design of the webpage.
-- Briefly explain the design process and how the layout was planned in Figma.
+- https://www.figma.com/design/0lxzz2m7pbBTvrNgaUxOyQ/A-Pluto-Story?node-id=0-1&t=V20n5w43JUWaUZXY-1 
+- For the design, I mainly wanted to create a similar layout like regular story books do with the picture at the top and the text at the bottom. I also wanted the pages with the story to be black, both for the space theme and for more negative space for the story assets.
 
 ## Features
-
-- List the key features of the project, including:
-    - **Animations**: Describe the animations you implemented (e.g., CSS transitions, GSAP effects).
-    - **Sound Effects**: Specify where sound effects are used and how they enhance the user experience.
-    - **User-triggered Events**: Explain how users interact with the page (e.g., clicking, scrolling, hovering) and how the page responds.
-    - **Responsive Design**: Explain how the design adapts to different devices (e.g., desktop, tablet, mobile).
+- **Responsive Design**: Percentages and CSS methods such as flex and object-fit are used to make sure that elements don't spill outside the viewing screen and scale accurately across various screen dimensions.
+- **Animations**: Animations are played when clicking on images using GSAP, same goes for transitions.
+- **User-triggered Events**: Animations, sound effects, and transitions are all triggered by clicking on images and buttons.
+- **Sound Effects**: Triggered via clicking on images and picked out for moments that make sense in the story. They are mainly meant for entertainment though so it's subjective.
 
 ## Technologies Used
-
-- List the technologies and tools used in the project:
-    - **Languages**: HTML, CSS, JavaScript
-    - **Libraries**: (e.g., GSAP for animations)
-    - **Other**: GitHub Pages for hosting, Figma for design
+- **Languages Used**: HTML, CSS, and JavaScript
+- **Libraries Used**: GSAP
+- **OTHER**: GitHub Pages (hosting), Figma (designing)
 
 ## Live Demo
 
-- Include a link to the live version of the project hosted on GitHub Pages.
+- https://medp33100.github.io/project-1-Bryan-RB44/ 
 
 ## Credits
-
-- List any third-party assets used in the project (e.g., sound effects, images, fonts) and provide proper attribution.
-- Acknowledge any resources, tutorials, or references you used to help complete the project.
+- Sound effects used are from the videogames Deltarune, Undertale, and Omori (only on page 4). NOTE: The first two games share the same sound effects for the most part.
+- Story assets used are made by me using Aseprite.
 
 ## Future Enhancements
 
-- List any features you would’ve liked to add if given more time
+- Would definitely want to add music or a toggle for music to be played.
+- Would also wamt to create a seamless experience rather than having to change between pages with various html files.
