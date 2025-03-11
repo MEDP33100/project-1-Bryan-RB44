@@ -1,0 +1,152 @@
+html {
+    background-color: #000000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #faebd7;
+    background-color: #381818;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.altHead {
+    color: #381818;
+    background-color: #faebd7;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-size: 3rem;
+    font-style: normal;
+    padding-top: 25vh;
+    text-align: center;
+}
+h2 {
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
+    padding-top: 25vh;
+    text-align: center;
+}
+
+button {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+    padding: 15px;
+    border: solid #bff8ff;
+    animation: buttonBack 3s infinite alternate ease-in-out;
+    margin-top: 2%;
+}
+.altButton {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+    padding: 15px;
+    border: solid #381818;
+    animation: buttonBack 3s infinite alternate ease-in-out;
+    margin-top: 2%;
+}
+button a {
+    text-decoration: none;
+    color: #381818;
+}
+button a:hover {
+    color: #000000;
+}
+
+.startPluto {
+    align-self: start;
+}
+.plutoSize {
+    margin: 2%;
+    width: 20%;
+}
+
+section {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+    color:#e7b070;
+    background-color: #000000;
+
+    height: 100vh;
+    /* display: flex; */
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 0;
+    scroll-snap-align: start;
+}
+
+section p.sleepy {
+    margin: 0;
+    display: inline;
+    font-size: 5em;
+    margin-left: 50%;
+}
+.sleepingPluto {
+    margin-top: 2%;
+}
+
+section p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+section img {
+    margin-left: 5%;
+    margin-top: 5%;
+    object-fit: contain;
+    width: 90vw;
+    height: 50vh;
+}
+section button {
+    border: solid #6d2424;
+    margin-left: 5%;
+    animation: buttonNext_back 3s infinite alternate ease-in-out;
+}
+
+/* ANIMATION */
+@keyframes buttonBack {
+    0% {
+      background-color: #e7b070;
+    }
+    50% {
+      background-color: #bea99a;
+    }
+    100% {
+      background-color: #e7b070;
+    }
+}
+@keyframes buttonNext_back {
+    0% {
+      background-color: #f7c8b3;
+    }
+    50% {
+      background-color: #ffe1be;
+    }
+    100% {
+      background-color: #f7c8b3;
+    }
+}
